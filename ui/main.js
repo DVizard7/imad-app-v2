@@ -5,9 +5,9 @@ element.innerHTML = 'New value';
 var img = document.getElementById('madi');
 var marginLeft = 0;
 function moveRight () {
-    marginLeft = marginLaft + 10;
+    marginLeft = marginLaft + 1;
     img.style.marginLeft = marginLeft + 'px';
 }
 img.onclick = function () {
-    var interval = setInterval(moveRight, 100);
+    var interval = setInterval(moveRight, 50);
 };

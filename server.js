@@ -8,7 +8,7 @@ var config = {
     database: 'dvizard7',
     host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: process.env.DB_PASSWORD
+    password: 'db-dvizard7-22448'
 };
 
 var app = express();
